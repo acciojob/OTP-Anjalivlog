@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         input.addEventListener('keydown', (e) => {
             if (e.key === 'Backspace' && index > 0) {
-                inputs[index].focus();
+                inputs[index - 1].focus();
             }
         });
     });
